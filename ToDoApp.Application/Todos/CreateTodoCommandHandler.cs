@@ -8,10 +8,18 @@ public class CreateTodoCommandHandler(ITodoRepository todoRepository) : IRequest
 {
     private readonly ITodoRepository _todoRepository = todoRepository;
 
-    public Task<Result<Guid>> Handle(CreateTodoCommand request, CancellationToken cancellationToken)
+    public async Task<Result<Guid>> Handle(CreateTodoCommand request, CancellationToken cancellationToken)
     {
-        // placeholder for now (always succeeds)
-        var todo = Todo.Create(request.Title);
-        return Task.FromResult(Result<Guid>.Success(Guid.NewGuid()));
+        var createResult = Todo.Create(request.Title);
+
+        if (!createResult.IsSuccess)
+        {
+            return Result<Guid>.Failure(createResult.Error);
+        }
+
+        var todo = createResult.Value;
+        await todoRepository.AddAsync(todo,cancellationToken);
+        
+        return Result<Guid>.Success(Guid.NewGuid());
     }
 }

@@ -4,11 +4,11 @@ public class Result<T>
 {
     public bool IsSuccess { get; set; }
     public string Error { get; set; }
-    public T? Value { get; set; }
+    private readonly T? _value;
 
     private Result(T? value, bool isSuccess, string error)
     {
-        Value = value;
+        _value = value;
         IsSuccess = isSuccess;
         Error = error;
     }
@@ -18,4 +18,6 @@ public class Result<T>
 
     public static Result<T> Failure(string error)
         => new Result<T>(default, false, error);
+
+    public T Value => IsSuccess ? _value! : throw new InvalidOperationException("No value present");
 }
