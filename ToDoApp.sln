@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.Tests", "ToDoApp.Tests\ToDoApp.Tests.csproj", "{EFDFC799-ED81-4030-ACFF-30750C04D07F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.Api", "ToDoApp.Api\ToDoApp.Api.csproj", "{E0E44706-7ABB-46AC-9045-60EFAD59BDB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.Core", "ToDoApp.Core\ToDoApp.Core.csproj", "{FBC02E14-97BC-4038-ABA2-6DDECD9279B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.Application", "ToDoApp.Application\ToDoApp.Application.csproj", "{3B926D40-40FE-4F13-884A-10260C42CD7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFDFC799-ED81-4030-ACFF-30750C04D07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDFC799-ED81-4030-ACFF-30750C04D07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDFC799-ED81-4030-ACFF-30750C04D07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDFC799-ED81-4030-ACFF-30750C04D07F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E44706-7ABB-46AC-9045-60EFAD59BDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E44706-7ABB-46AC-9045-60EFAD59BDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E44706-7ABB-46AC-9045-60EFAD59BDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E44706-7ABB-46AC-9045-60EFAD59BDB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC02E14-97BC-4038-ABA2-6DDECD9279B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC02E14-97BC-4038-ABA2-6DDECD9279B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC02E14-97BC-4038-ABA2-6DDECD9279B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC02E14-97BC-4038-ABA2-6DDECD9279B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B926D40-40FE-4F13-884A-10260C42CD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B926D40-40FE-4F13-884A-10260C42CD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B926D40-40FE-4F13-884A-10260C42CD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B926D40-40FE-4F13-884A-10260C42CD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
