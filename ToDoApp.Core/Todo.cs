@@ -2,10 +2,12 @@ namespace ToDoApp.Core
 {
     public class Todo
     {
+        public Guid Id { get; }
         public string Title { get; set; }
 
         private Todo(string title)
         {
+            Id = Guid.NewGuid();
             Title = title;
         }
 

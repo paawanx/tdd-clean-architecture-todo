@@ -20,6 +20,6 @@ public class CreateTodoCommandHandler(ITodoRepository todoRepository) : IRequest
         var todo = createResult.Value;
         await todoRepository.AddAsync(todo,cancellationToken);
         
-        return Result<Guid>.Success(Guid.NewGuid());
+        return Result<Guid>.Success(todo.Id);
     }
 }
