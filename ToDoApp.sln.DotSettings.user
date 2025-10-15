@@ -1,5 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ALateBoundTestFramework_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FSourcesCache_003Ff9878f643c2ecf1b4ce73234de56c9754a451c835620eae85ca8babbcb5889c4_003FLateBoundTestFramework_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=3b926d40_002D40fe_002D4f13_002D884a_002D10260c42cd7f_0023ToDoApp_002EApplication/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=8e2e8ae0_002Df8b7_002D40c3_002D88aa_002Dd5bbc6515b6a_0023ToDoApp_002EInfrastructure/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=e0e44706_002D7abb_002D46ac_002D9045_002D60efad59bdb3_0023ToDoApp_002EApi/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=efdfc799_002Ded81_002D4030_002Dacff_002D30750c04d07f_0023ToDoApp_002ETests/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=fbc02e14_002D97bc_002D4038_002Daba2_002D6ddecd9279b4_0023ToDoApp_002ECore/@EntryIndexedValue">True</s:Boolean>
 	
 	
 	
